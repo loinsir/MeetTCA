@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191C05D92C94E7B300A4E603 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C05D82C94E7B300A4E603 /* CounterFeatureTests.swift */; };
+		191C05DB2C94F5B200A4E603 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C05DA2C94F5B200A4E603 /* NumberFactClient.swift */; };
 		19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */; };
 		19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61972C9094E9004FEDD0 /* ContentView.swift */; };
 		19AB619A2C9094EA004FEDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AB61992C9094EA004FEDD0 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		191C05D72C94E2FF00A4E603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		191C05D82C94E7B300A4E603 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		191C05DA2C94F5B200A4E603 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 		19AB61922C9094E9004FEDD0 /* MeetTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAApp.swift; sourceTree = "<group>"; };
 		19AB61972C9094E9004FEDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */,
 				19AB61972C9094E9004FEDD0 /* ContentView.swift */,
 				19AB61BF2C909507004FEDD0 /* CounterFeature.swift */,
+				191C05DA2C94F5B200A4E603 /* NumberFactClient.swift */,
 				19AB61C42C9098EA004FEDD0 /* CounterView.swift */,
 				19AB61992C9094EA004FEDD0 /* Assets.xcassets */,
 				19AB619B2C9094EA004FEDD0 /* Preview Content */,
@@ -124,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				19AB61A62C9094EA004FEDD0 /* MeetTCATests.swift */,
+				191C05D82C94E7B300A4E603 /* CounterFeatureTests.swift */,
 			);
 			path = MeetTCATests;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191C05DB2C94F5B200A4E603 /* NumberFactClient.swift in Sources */,
 				19AB61C02C909507004FEDD0 /* CounterFeature.swift in Sources */,
 				19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */,
 				19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */,
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19AB61A72C9094EA004FEDD0 /* MeetTCATests.swift in Sources */,
+				191C05D92C94E7B300A4E603 /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
