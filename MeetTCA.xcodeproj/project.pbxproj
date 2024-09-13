@@ -14,6 +14,9 @@
 		19AB61A72C9094EA004FEDD0 /* MeetTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61A62C9094EA004FEDD0 /* MeetTCATests.swift */; };
 		19AB61B12C9094EA004FEDD0 /* MeetTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61B02C9094EA004FEDD0 /* MeetTCAUITests.swift */; };
 		19AB61B32C9094EA004FEDD0 /* MeetTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61B22C9094EA004FEDD0 /* MeetTCAUITestsLaunchTests.swift */; };
+		19AB61C02C909507004FEDD0 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61BF2C909507004FEDD0 /* CounterFeature.swift */; };
+		19AB61C32C90959C004FEDD0 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 19AB61C22C90959C004FEDD0 /* ComposableArchitecture */; };
+		19AB61C52C9098EA004FEDD0 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61C42C9098EA004FEDD0 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191C05D72C94E2FF00A4E603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		19AB61922C9094E9004FEDD0 /* MeetTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAApp.swift; sourceTree = "<group>"; };
 		19AB61972C9094E9004FEDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		19AB61AC2C9094EA004FEDD0 /* MeetTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB61B02C9094EA004FEDD0 /* MeetTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAUITests.swift; sourceTree = "<group>"; };
 		19AB61B22C9094EA004FEDD0 /* MeetTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19AB61BF2C909507004FEDD0 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		19AB61C42C9098EA004FEDD0 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AB61C32C90959C004FEDD0 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +101,11 @@
 		19AB61942C9094E9004FEDD0 /* MeetTCA */ = {
 			isa = PBXGroup;
 			children = (
+				191C05D72C94E2FF00A4E603 /* Info.plist */,
 				19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */,
 				19AB61972C9094E9004FEDD0 /* ContentView.swift */,
+				19AB61BF2C909507004FEDD0 /* CounterFeature.swift */,
+				19AB61C42C9098EA004FEDD0 /* CounterView.swift */,
 				19AB61992C9094EA004FEDD0 /* Assets.xcassets */,
 				19AB619B2C9094EA004FEDD0 /* Preview Content */,
 			);
@@ -143,6 +153,9 @@
 			dependencies = (
 			);
 			name = MeetTCA;
+			packageProductDependencies = (
+				19AB61C22C90959C004FEDD0 /* ComposableArchitecture */,
+			);
 			productName = MeetTCA;
 			productReference = 19AB61922C9094E9004FEDD0 /* MeetTCA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 19AB61892C9094E9004FEDD0;
+			packageReferences = (
+				19AB61C12C90959C004FEDD0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 19AB61932C9094E9004FEDD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AB61C02C909507004FEDD0 /* CounterFeature.swift in Sources */,
 				19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */,
 				19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */,
+				19AB61C52C9098EA004FEDD0 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +443,7 @@
 				DEVELOPMENT_TEAM = K2VAN9GH96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetTCA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +473,7 @@
 				DEVELOPMENT_TEAM = K2VAN9GH96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetTCA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +608,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19AB61C12C90959C004FEDD0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19AB61C22C90959C004FEDD0 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AB61C12C90959C004FEDD0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 19AB618A2C9094E9004FEDD0 /* Project object */;
 }
