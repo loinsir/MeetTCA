@@ -12,6 +12,10 @@
 		191C05DF2C94FE2B00A4E603 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C05DE2C94FE2B00A4E603 /* AppView.swift */; };
 		191C05E12C95000500A4E603 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C05E02C95000500A4E603 /* AppFeature.swift */; };
 		191C05E32C95010400A4E603 /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C05E22C95010400A4E603 /* AppFeatureTests.swift */; };
+		193FA0BC2C99BEFC00F9C349 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193FA0BB2C99BEFC00F9C349 /* ContactsFeature.swift */; };
+		193FA0BE2C99CBD400F9C349 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193FA0BD2C99CBD400F9C349 /* ContactsView.swift */; };
+		194630C82CA1ABC8004F42E3 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */; };
+		194630CA2CA1AC79004F42E3 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630C92CA1AC79004F42E3 /* AddContactView.swift */; };
 		19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */; };
 		19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61972C9094E9004FEDD0 /* ContentView.swift */; };
 		19AB619A2C9094EA004FEDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AB61992C9094EA004FEDD0 /* Assets.xcassets */; };
@@ -48,6 +52,10 @@
 		191C05DE2C94FE2B00A4E603 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		191C05E02C95000500A4E603 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		191C05E22C95010400A4E603 /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
+		193FA0BB2C99BEFC00F9C349 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		193FA0BD2C99CBD400F9C349 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		194630C92CA1AC79004F42E3 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		19AB61922C9094E9004FEDD0 /* MeetTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAApp.swift; sourceTree = "<group>"; };
 		19AB61972C9094E9004FEDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +123,10 @@
 				19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */,
 				19AB61972C9094E9004FEDD0 /* ContentView.swift */,
 				19AB61BF2C909507004FEDD0 /* CounterFeature.swift */,
+				194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */,
+				194630C92CA1AC79004F42E3 /* AddContactView.swift */,
+				193FA0BB2C99BEFC00F9C349 /* ContactsFeature.swift */,
+				193FA0BD2C99CBD400F9C349 /* ContactsView.swift */,
 				191C05DA2C94F5B200A4E603 /* NumberFactClient.swift */,
 				19AB61C42C9098EA004FEDD0 /* CounterView.swift */,
 				191C05DE2C94FE2B00A4E603 /* AppView.swift */,
@@ -289,10 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				191C05DB2C94F5B200A4E603 /* NumberFactClient.swift in Sources */,
+				194630C82CA1ABC8004F42E3 /* AddContactFeature.swift in Sources */,
 				19AB61C02C909507004FEDD0 /* CounterFeature.swift in Sources */,
 				191C05DF2C94FE2B00A4E603 /* AppView.swift in Sources */,
+				194630CA2CA1AC79004F42E3 /* AddContactView.swift in Sources */,
+				193FA0BC2C99BEFC00F9C349 /* ContactsFeature.swift in Sources */,
 				19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */,
 				19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */,
+				193FA0BE2C99CBD400F9C349 /* ContactsView.swift in Sources */,
 				191C05E12C95000500A4E603 /* AppFeature.swift in Sources */,
 				19AB61C52C9098EA004FEDD0 /* CounterView.swift in Sources */,
 			);

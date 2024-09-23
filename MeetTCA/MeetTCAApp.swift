@@ -16,7 +16,7 @@ struct MeetTCAApp: App {
     
     var body: some Scene {
         WindowGroup {
-            AppView(store: MyApp.store)
+            AppView(store: MeetTCAApp.store)
         }
     }
 }
