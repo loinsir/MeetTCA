@@ -17,6 +17,8 @@
 		194630C82CA1ABC8004F42E3 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */; };
 		194630CA2CA1AC79004F42E3 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630C92CA1AC79004F42E3 /* AddContactView.swift */; };
 		194630CD2CA1CBF0004F42E3 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630CC2CA1CBF0004F42E3 /* ContactsFeatureTests.swift */; };
+		194630CF2CA316B5004F42E3 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630CE2CA316B5004F42E3 /* ContactDetailFeature.swift */; };
+		194630D12CA318F5004F42E3 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630D02CA318F5004F42E3 /* ContactDetailView.swift */; };
 		19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */; };
 		19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61972C9094E9004FEDD0 /* ContentView.swift */; };
 		19AB619A2C9094EA004FEDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AB61992C9094EA004FEDD0 /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 		194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 		194630C92CA1AC79004F42E3 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		194630CC2CA1CBF0004F42E3 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
+		194630CE2CA316B5004F42E3 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
+		194630D02CA318F5004F42E3 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		19AB61922C9094E9004FEDD0 /* MeetTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAApp.swift; sourceTree = "<group>"; };
 		19AB61972C9094E9004FEDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +130,9 @@
 				19AB61972C9094E9004FEDD0 /* ContentView.swift */,
 				19AB61BF2C909507004FEDD0 /* CounterFeature.swift */,
 				194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */,
+				194630CE2CA316B5004F42E3 /* ContactDetailFeature.swift */,
+				194630D02CA318F5004F42E3 /* ContactDetailView.swift */,
+				194630D22CA322D4004F42E3 /* swift-concurrency-extras */,
 				194630C92CA1AC79004F42E3 /* AddContactView.swift */,
 				193FA0BB2C99BEFC00F9C349 /* ContactsFeature.swift */,
 				193FA0BD2C99CBD400F9C349 /* ContactsView.swift */,
@@ -307,6 +314,8 @@
 				194630C82CA1ABC8004F42E3 /* AddContactFeature.swift in Sources */,
 				19AB61C02C909507004FEDD0 /* CounterFeature.swift in Sources */,
 				191C05DF2C94FE2B00A4E603 /* AppView.swift in Sources */,
+				194630CF2CA316B5004F42E3 /* ContactDetailFeature.swift in Sources */,
+				194630D12CA318F5004F42E3 /* ContactDetailView.swift in Sources */,
 				194630CA2CA1AC79004F42E3 /* AddContactView.swift in Sources */,
 				193FA0BC2C99BEFC00F9C349 /* ContactsFeature.swift in Sources */,
 				19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */,
