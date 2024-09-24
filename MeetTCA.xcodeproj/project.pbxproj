@@ -16,6 +16,7 @@
 		193FA0BE2C99CBD400F9C349 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193FA0BD2C99CBD400F9C349 /* ContactsView.swift */; };
 		194630C82CA1ABC8004F42E3 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */; };
 		194630CA2CA1AC79004F42E3 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630C92CA1AC79004F42E3 /* AddContactView.swift */; };
+		194630CD2CA1CBF0004F42E3 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194630CC2CA1CBF0004F42E3 /* ContactsFeatureTests.swift */; };
 		19AB61962C9094E9004FEDD0 /* MeetTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */; };
 		19AB61982C9094E9004FEDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB61972C9094E9004FEDD0 /* ContentView.swift */; };
 		19AB619A2C9094EA004FEDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AB61992C9094EA004FEDD0 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		193FA0BD2C99CBD400F9C349 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		194630C72CA1ABC8004F42E3 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 		194630C92CA1AC79004F42E3 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		194630CC2CA1CBF0004F42E3 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
 		19AB61922C9094E9004FEDD0 /* MeetTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB61952C9094E9004FEDD0 /* MeetTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTCAApp.swift; sourceTree = "<group>"; };
 		19AB61972C9094E9004FEDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				19AB61A62C9094EA004FEDD0 /* MeetTCATests.swift */,
 				191C05E22C95010400A4E603 /* AppFeatureTests.swift */,
 				191C05D82C94E7B300A4E603 /* CounterFeatureTests.swift */,
+				194630CC2CA1CBF0004F42E3 /* ContactsFeatureTests.swift */,
 			);
 			path = MeetTCATests;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				19AB61A72C9094EA004FEDD0 /* MeetTCATests.swift in Sources */,
 				191C05D92C94E7B300A4E603 /* CounterFeatureTests.swift in Sources */,
 				191C05E32C95010400A4E603 /* AppFeatureTests.swift in Sources */,
+				194630CD2CA1CBF0004F42E3 /* ContactsFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -464,6 +469,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
